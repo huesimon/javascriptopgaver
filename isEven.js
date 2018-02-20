@@ -33,3 +33,13 @@ function countBs(string) {
         }
     console.log(counter)
 }
+countChars("Mit navn er Jens", "e");
+
+function countChars(string, char) {
+    let counter = 0;
+    for (i = 0; i <= string.length; i++)
+        if (string.charAt(i) == char){
+            counter++;
+        }
+    console.log(counter)
+}
